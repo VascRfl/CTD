@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+.degrade {
+
+    background-image: linear-gradient(-45deg,#684994, #58c42e);
+}
+
+.icon {
+
+    font-size: 40px;
+
+}
+
+.title {
+
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.textos {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.avatar {
+
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 4px #73ff6e;
+
+}
+
+.legenda {
+
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
