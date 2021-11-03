@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+h1, h2 {
+
+    font-size: 42px;
+
+}
+
+.texts {
+
+    font-family: 'Reenie Beanie', cursive;
+
+}
+
+.bg-image {
+
+    background-image: url("../images/nezuko.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.button {
+
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 13px;
+    text-align: center;
+
+}
