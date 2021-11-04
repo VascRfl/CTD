@@ -1,0 +1,42 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+div {
+
+    width: 500px;
+    background-color: salmon;
+    padding: 20px;
+
+}
+
+h1 {
+
+    background-color: blue;
+    padding-bottom: 42px;
+    
+}
+
+p {
+
+    background-color: yellow;
+    margin: 50px 30px;
+
+}
+
+a{
+
+    background-color: white;
+    
+}
+
+button {
+
+    border: pink 8px dotted;
+    border-radius: 10px;
+
+}
