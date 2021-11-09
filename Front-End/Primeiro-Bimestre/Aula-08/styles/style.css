@@ -1,0 +1,66 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main {
+
+    height: 2000px;
+    
+}
+
+header {
+
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    background-color: #711ba3;
+    position: fixed;
+    z-index: 20;
+    
+}
+
+header a {
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+.square {
+
+    width: 150px;
+    height: 150px;
+    
+}
+
+.first-square {
+
+    background-color: #2e8b57;
+    
+}
+
+.second-square {
+
+    color: #ffffff;
+    font-size: 180px;
+    text-align: center;
+    line-height: 150px;
+    background-color: #196fbe;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+
+}
+
+.third-square {
+
+    background-color: #bd2ca5;
+    position: relative;
+
+    
+}
