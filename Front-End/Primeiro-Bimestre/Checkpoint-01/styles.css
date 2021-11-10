@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Overseer;
+    src: url("Overseer\ Italic.otf");
+ }
+
+ @font-face {
+    font-family: Milkshake;
+    src: url("Milkshake.otf");
+ }
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    background-image: url("diamond_city.jpg");
+    background-size: cover;
+        
+}
+
+.title {
+
+    background-color: #42e6f5b6;
+    font-family: 'Overseer', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.container {
+
+    background-color: #00000090;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.description {
+
+    color: #ffffff;
+    font-family: 'Milkshake';
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px 200px;
+    
+}
+
+.video {
+
+    margin: 20px auto;
+    border-radius: 20px;
+    
+}
+
+.curiosidades {
+    
+    margin: 24px auto;
+    
+}
+
+.curiosidades h1 {
+
+    background-color: #42e6f5b6;
+    font-family: 'Overseer', sans-serif;
+    font-size: 45px;
+    letter-spacing: 3px;
+        
+}
+
+.curiosidades ul {
+
+    color: #ffffff;
+    font-family: 'Milkshake';
+    font-size: 24px;
+    list-style-type: none;
+    padding: 18px;
+
+}
+
+.curiosidades ul li {
+
+    padding: 10px auto;
+    
+}
+
+footer {
+
+    background-color: #00000090;
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+    
+}
+
+footer > a {
+
+    padding: 20px;
+    
+}
+
+.logo {
+
+    height: 70px;
+    
+}
