@@ -21,6 +21,12 @@ body {
 
 }
 
+a {
+
+    text-decoration: none;
+    
+}
+
 .main-menu {
 
     background-color: #080c3180;
@@ -49,7 +55,6 @@ body {
 
     color: #ffffff;
     font-size: 18px;
-    text-decoration: none;
     opacity: .5;
     
 }
@@ -127,14 +132,12 @@ main {
 .introduction article p a {
 
     color: white;
-    text-decoration: none;
     
 }
 
 .introduction article p a:hover {
 
     color: #814bc9;
-    text-decoration: none;
     
 }
 
@@ -159,6 +162,14 @@ main {
     color: #ffffff;
     align-items: center;
     
+}
+
+.works img {
+
+    object-fit: cover;
+    border-radius: 32px;
+    box-shadow: 3px 3px #4d1a86;
+
 }
 
 .section-title {
@@ -201,14 +212,12 @@ main {
 .works article a {
 
     color: #ffffff;
-    text-decoration: none;
     
 }
 
 .works article a:hover {
 
     color: #814bc9;
-    text-decoration: none;
     
 }
 
@@ -218,7 +227,7 @@ main {
     
 }
 
-.works .images {
+.works .vel-energia {
 
     display: flex;
     flex-wrap: wrap;
@@ -228,45 +237,79 @@ main {
     
 }
 
-.works .images img {
+.works .vel-energia img {
 
     width: 250px;
-    object-fit: cover;
-    border-radius: 32px;
-    box-shadow: 3px 3px #4d1a86;
+    
+}
 
+.menu-sv {
+    
+    height: 400px;
+    margin-right: 24px;
+    
+}
+
+.check {
+
+    height: 400px;
     
 }
 
 .contatos {
 
+    background-color: #207ca7;
     width: 100%;
-    height: 200px;
-    color: #ffffff;
-    position: relative;
-    margin: 0 auto;
+    margin-top: 42px;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;    
     
 }
 
-.contatos address {
+.call-me {
 
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 40%;
 
 }
 
-.contatos address a {
+.call-me p {
+
+    font-size: 32px;
+    line-height: 200px;
+    color: #5f1472;       
+    
+}
+
+.footer {
 
     color: #ffffff;
-    text-decoration: none;
-
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    
 }
 
-.contatos address a:hover {
+.footer img {
+
+    height: 80px;
+    
+}
+
+.footer address {
+
+    text-align: center;
+    
+}
+
+.footer a {
+
+    color: #ffffff;
+    
+}
+
+.footer a:hover {
 
     color: #814bc9;
-    text-decoration: none;
-
+    
 }
