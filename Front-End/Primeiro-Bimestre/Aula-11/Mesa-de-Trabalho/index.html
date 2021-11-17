@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Mesa de Trabalho</title>
+    </head>
+    <body>
+        
+        <form>
+            <h1>Padoka's Doces</h1>
+
+            <img src="https://bolodefestasp.com.br/wp-content/uploads/2020/12/WhatsApp_Image_2020-12-20_at_19.54.55-removebg-preview.png" alt="Bolo">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+                <div>
+                    <label for="username">Nome Completo</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div>
+                    <label for="adress">Endereço Completo</label>
+                    <input type="text" name="adress" id="adress">
+                </div>
+                
+                <div>
+                    <label for="details">Observações</label>
+                    <textarea name="details" id="details"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Cardápio</legend>
+
+                <div>
+                    <label for="cake">Bolos</label>
+                    <select name="cake" id="cake">
+                        <option value="1">Cenoura</option>
+                        <option value="2">Fubá</option>
+                        <option value="3">Aipim</option>
+                        <option value="4">Chocolate</option>
+                        <option value="5">Red Velvet</option>
+                        <option value="6">Branco</option>
+                        <option value="7">Morango</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Opções Extras</legend>
+
+                <div>
+                    <input type="checkbox" name="options" id="gift">
+                    <label for="gift">Cobertura</label>
+
+                    <input type="checkbox" name="options" id="ribbon">
+                    <label for="ribbon">Confete</label>
+
+                    <input type="checkbox" name="options" id="tag">
+                    <label for="tag">Recheio</label>
+
+                    <input type="checkbox" name="options" id="bag">
+                    <label for="bag">Emabalgem de Festa</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pagamento</legend>
+                
+                <div>
+                    <input type="radio" name="payment" id="debit">
+                    <label for="debit">Débito</label>                    
+
+                    <input type="radio" name="payment" id="pix" checked>
+                    <label for="pix">Pix</label>                    
+
+                    <input type="radio" name="payment" id="credit">
+                    <label for="credit">Crédito</label>                    
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Entrega</legend>
+                
+                <div>
+                    <input type="radio" name="delivery" id="mail">
+                    <label for="mail">Motoboy</label>
+
+                    <input type="radio" name="delivery" id="pickUp" checked>
+                    <label for="pickUp">Retirar na Loja</label>
+                </div>
+
+                <div>
+                    <label for="dateDelivery">Data de Entrega</label>
+                    <input type="date" name="dateDelivery" id="dateDelivery" min="2021-11-16">
+                </div>
+            </fieldset>
+            
+            <button type="reset">Limpar</button>
+            <button type="submit">Encomendar</button>
+            
+        </form>
+        
+    </body>
+</html>

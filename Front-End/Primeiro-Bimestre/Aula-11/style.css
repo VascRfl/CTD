@@ -1,0 +1,22 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+fieldset {
+
+    margin-bottom: 24px;
+    padding: 8px;
+    width: fit-content;
+    
+}
+
+legend {
+
+    font-size: 22px;
+    margin-bottom: 5px;
+    
+}
