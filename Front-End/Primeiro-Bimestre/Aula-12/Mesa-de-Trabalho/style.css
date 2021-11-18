@@ -1,0 +1,84 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    background-color: #4407457e;
+    
+}
+
+.main-header {
+
+    margin: 12px;
+    
+}
+
+.main-header ul {
+
+    list-style: none;
+    
+}
+
+.main-header ul li {
+
+    width: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 8px;
+    padding: 32px;
+    border-radius: 9px;
+
+    
+}
+
+.main-header ul li:nth-child(2):hover {
+
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.text::first-letter {
+
+    font-size: 28px;
+    font-family: fantasy;
+    
+}
+
+.name-input:disabled {
+
+    background-color: #ff0000;
+    
+}
+
+.email-input:focus {
+
+    width: 250px;
+    
+}
+
+.checkboxs:checked {
+
+    width: 25px;
+    height: 25px;
+    
+}
+
+.end-button {
+
+    width: 150px;
+    height: 80px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 80px;
+    background-color: #000000;
+    border: 0;
+    border-radius: 18px;
+    
+}

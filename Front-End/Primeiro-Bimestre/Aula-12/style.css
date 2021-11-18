@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.main-header {
+
+    padding: 32px;
+    
+}
+
+.main-header ul {
+
+    list-style: none;
+    
+}
+
+.main-header ul li {
+
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    width: 80px;
+    background-color: #a3a3a3;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 12px;
+
+    
+}
+
+.main-header ul li:nth-child(2) {
+
+    background-color: #383838;
+    
+}
+
+main {
+
+    margin: 32px;
+    
+}
+
+.main-text {
+
+    margin-top: 8px;
+    
+}
+
+.main-text::first-letter {
+
+    font-size: 24px;
+    
+}
+
+fieldset {
+
+    width: 500px;
+    padding: 12px;
+    
+}
+
+.custom-input {
+
+    width: 200px;
+    border: 0;
+    background-color: #a3a3a3;
+    padding: 6px 12px;
+    border-radius: 12px;
+    transition: .2s;
+    
+}
+
+.custom-input:hover {
+
+    width: 300px;
+
+}
+
+.custom-input:focus {
+
+    width: 300px;
+    background-color: #dddddd;
+    
+}
+
+.custom-checkbox {
+
+    width: 15px;
+    height: 15px;
+    
+}
+
+.custom-checkbox:checked {
+
+    width: 20px;
+    height: 20px;
+    
+}
+
+.success-button {
+
+    border: 0;
+    margin: 8px;
+    padding: 12px 24px;
+    background-color: #cccf1a;
+    border-radius: 32px;
+    transition: .4s;
+
+}
+
+.success-button:hover {
+
+    background-color: #f6f85b;
+    
+}
