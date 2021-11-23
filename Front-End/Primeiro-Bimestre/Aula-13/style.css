@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #9c9c9c;
+    
+}
+
+main {
+
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+@keyframes float {
+
+    0% {
+
+        transform: translate(0, -20px);
+        
+    }
+
+    50% {
+
+        transform: translate(0, 20px);
+        opacity: 0;
+        
+    }
+
+    100% {
+
+        transform: translate(0, -20px);
+        
+    }
+    
+}
+
+.skeleton {
+
+    width: 200px;
+    animation-name: float;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.click {
+
+    color: #fff;
+    font-size: 24px;
+    background-color: #000;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 16px;
+    border: 0;
+    display: block;
+    transition: .5s ease-in-out;
+    box-shadow: 3px 3px;
+    
+}
+
+.click:hover {
+
+    color: #000;
+    background-color: #fff;
+    transform: scale(1.05);
+    
+}

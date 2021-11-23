@@ -1,0 +1,93 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    background-color: #5f9ea0;
+    
+}
+
+main {
+
+    margin: 0 100px;
+    text-align: center;
+    
+}
+
+@keyframes roll {
+    
+    0% {
+
+        opacity: 0;
+        transform: translate(0);
+        
+    }
+
+    50% {
+
+        opacity: 1;
+        transform: translate(1000px);
+        
+    }
+
+    100% {
+
+        opacity: 0;
+        transform: translate(0);
+        
+    }
+    
+}
+
+.circle {
+
+    margin-top: 56px;
+    background-color: #4e6933;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: roll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+img {
+
+    width: 200px;
+    margin-top: 32px;
+    transition: .3s;
+    
+}
+
+img:hover {
+
+    transform: scale(1.10) rotate(90deg);
+    
+}
+
+button {
+
+    color: #000;
+    font-size: 32px;
+    border: 0;
+    background-color: #7fff00;
+    display: block;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 42px;
+    transition: .3s ease-in-out;
+    
+}
+
+button:hover {
+
+    color: #fff;
+    background-color: darkcyan;
+    
+}
