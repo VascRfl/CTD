@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Road+Rage&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+body {
+
+    background-color: #0c3794;
+    
+}
+
+.main-header {
+
+    background-color: #00000080;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-menu {
+
+    font-size: 22px;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    
+}
+
+.main-menu a {
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .6;
+    transition: .2s ease-in-out;
+    
+}
+
+.main-menu a:hover {
+
+    opacity: 1;
+    
+}
+
+.main-header button {
+
+    color: #fff;
+    height: fit-content;
+    background-color: transparent;
+    font-size: 22px;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    border-radius: 32px;
+    opacity: .6;
+    transition: .2s ease-in-out;
+   
+}
+
+.main-header button:hover {
+
+    opacity: 1;
+    
+}
+
+main {
+
+    padding: 12px;
+
+}
+
+main h1 {
+
+    color: #fff;
+    letter-spacing: 2px;
+    
+}
+
+.videos {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    gap: 24px;
+    justify-content: center;
+    
+}
+
+.video {
+
+    width: 400px;
+    object-fit: cover;
+        
+}
+
+.video:hover {
+
+    transform: scale(1.05);
+    
+}
+
+.video img {
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 2px 2px 8px #000;
+    
+}
