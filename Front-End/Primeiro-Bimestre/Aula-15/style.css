@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        'main-header    main-header'
+        'main-aside     main-content'
+        'main-footer    main-footer'
+    ;
+    
+}
+
+header {
+
+    background-color: #000000;
+    grid-area: main-header;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-menu {
+
+    font-size: 22px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    
+}
+
+.main-menu a {
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .6;
+    transition: .2s ease-in-out;
+    
+}
+
+.main-menu a:hover {
+
+    opacity: 1;
+    
+}
+
+.main-header button {
+
+    color: #fff;
+    height: fit-content;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 8px;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    border-radius: 32px;
+    opacity: .6;
+    transition: .2s ease-in-out;
+   
+}
+
+.main-header button:hover {
+
+    opacity: 1;
+    
+}
+
+aside {
+
+    color: #fff;
+    background-color: #363636;
+    grid-area: main-aside;
+
+}
+
+.side-menu {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 72px;
+    margin-left: 8px;
+    
+}
+
+.side-menu li {
+
+    margin-bottom: 42px;
+    opacity: .7;
+    
+}
+
+.side-menu li:hover {
+
+    opacity: 1;
+    
+}
+
+main {
+
+    padding: 12px;
+    background-color: #4e4e4e;
+    grid-area: main-content;
+        
+}
+
+main h1 {
+
+    color: #fff;
+    letter-spacing: 2px;
+    
+}
+
+.videos {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    gap: 24px;
+    justify-content: center;
+    
+}
+
+.video {
+
+    width: 400px;
+    object-fit: cover;
+        
+}
+
+.video:hover {
+
+    transform: scale(1.05);
+    
+}
+
+.video img {
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 2px 2px 8px #000;
+    
+}
+
+footer {
+
+    color: #fff;
+    background-color: #000000;
+    grid-area: main-footer;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
+}
+
+.logo {
+
+    height: 80px;
+    
+}
