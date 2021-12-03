@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+
+    width: 100%;
+    background-color: #b4b4b4;
+    
+}
+
+header {
+
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    margin-bottom: 18px;
+    background-color: #cecece;
+    grid-area: main-menu;
+    
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+    'main-menu main-menu'
+    'main-video side-videos';
+    
+}
+
+article {
+
+    background-color: #dedede;
+    margin: 8px;
+    padding: 12px;
+    grid-area: main-video;
+    
+}
+
+article h1 {
+
+    font-size: 32px;
+    margin: 24px 0;
+    
+}
+
+article img {
+
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 5px #000;
+    
+}
+
+aside {
+
+    background-color: #dedede;
+    margin: 8px auto;
+    padding: 12px;
+    grid-area: side-videos;
+
+}
+
+section {
+
+    display: flex;
+    margin-bottom: 32px;
+    
+}
+
+section img {
+
+    max-width: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 5px #000;
+    
+}
+
+.info {
+
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.info h1 {
+
+    font-size: 20px;
+    
+}
+
+.info h2 {
+
+    font-size: 15px;
+    
+}
+
+.info h3 {
+
+    font-size: 14px;
+    
+}
+
+@media (max-width: 1440px) {
+    
+    .info {
+
+        margin-left: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .info h1 {
+    
+        font-size: 18px;
+        
+    }
+    
+    .info h2 {
+    
+        font-size: 14px;
+        
+    }
+    
+    .info h3 {
+    
+        font-size: 12px;
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    main {
+
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        'main-menu'
+        'main-video'
+        'side-videos';
+
+    }
+
+    aside {
+
+        margin: 0 auto;
+        padding: 12px;
+    
+    }
+
+}
